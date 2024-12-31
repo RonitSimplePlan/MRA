@@ -1,0 +1,1533 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="" type="image/gif" sizes="16x16" />
+  <title>MRA | Home</title>
+
+  <!-- CSS Starts-->
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- CSS Ends-->
+</head>
+
+<!-- Body Starts-->
+
+<body>
+  <div class="search-modal-overlay"></div>
+  <div class="search-modal">
+    <div class="search-modal-wrap">
+      <input type="text" placeholder="Search here" />
+      <div class="modal-close">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.99979 8.88472L1.44197 15.4422C1.3251 15.5593 1.18166 15.6218 1.01166 15.6297C0.841868 15.6378 0.690514 15.5753 0.557598 15.4422C0.424473 15.3093 0.35791 15.1619 0.35791 15C0.35791 14.8382 0.424473 14.6908 0.557598 14.5578L7.1151 8.00003L0.557598 1.44222C0.440514 1.32534 0.378014 1.1819 0.370098 1.0119C0.361973 0.842112 0.424473 0.690757 0.557598 0.55784C0.690514 0.424715 0.83791 0.358154 0.999785 0.358154C1.16166 0.358154 1.30906 0.424715 1.44197 0.55784L7.99979 7.11534L14.5576 0.55784C14.6745 0.440757 14.8179 0.378257 14.9879 0.37034C15.1577 0.362215 15.3091 0.424715 15.442 0.55784C15.5751 0.690757 15.6417 0.838154 15.6417 1.00003C15.6417 1.1619 15.5751 1.3093 15.442 1.44222L8.88447 8.00003L15.442 14.5578C15.5591 14.6747 15.6216 14.8182 15.6295 14.9882C15.6376 15.1579 15.5751 15.3093 15.442 15.4422C15.3091 15.5753 15.1617 15.6419 14.9998 15.6419C14.8379 15.6419 14.6905 15.5753 14.5576 15.4422L7.99979 8.88472Z"
+            fill="white" />
+        </svg>
+      </div>
+      <button class="custom-button white big-width">search</button>
+    </div>
+  </div>
+  <wrapper">
+    <header class="blue">
+      <div class="container-fluid">
+        <div class="header-wrap">
+          <div class="header-top">
+            <div class="header-top-left">
+              <ul class="desktop">
+                <li class="header-search">
+                  <a href="#!">
+                    <div class="search-icon">
+                      <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M8.36388 0.777844C7.38967 0.766491 6.42289 0.948567 5.51955 1.31353C4.61621 1.67848 3.79428 2.21907 3.10136 2.90396C2.40844 3.58885 1.85831 4.40443 1.48285 5.30345C1.10739 6.20248 0.914062 7.16707 0.914062 8.14134C0.914062 9.11562 1.10739 10.0802 1.48285 10.9792C1.85831 11.8783 2.40844 12.6938 3.10136 13.3787C3.79428 14.0636 4.61621 14.6042 5.51955 14.9692C6.42289 15.3341 7.38967 15.5162 8.36388 15.5048C10.3019 15.4823 12.1529 14.6965 13.5154 13.318C14.8779 11.9396 15.6421 10.0795 15.6421 8.14134C15.6421 6.20315 14.8779 4.34311 13.5154 2.96464C12.1529 1.58617 10.3019 0.800429 8.36388 0.777844Z"
+                          stroke="white" stroke-miterlimit="10" />
+                        <path d="M13.8516 13.6328L18.9946 18.7758" stroke="white" stroke-miterlimit="10"
+                          stroke-linecap="round" />
+                      </svg>
+                    </div>
+                    Search
+                  </a>
+                </li>
+                <li><a href="#!">Mattress matchmaker</a></li>
+              </ul>
+              <ul class="mobile">
+                <li class="header-search">
+                  <a href="#!">
+                    <div class="search-icon">
+                      <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M8.36388 0.777844C7.38967 0.766491 6.42289 0.948567 5.51955 1.31353C4.61621 1.67848 3.79428 2.21907 3.10136 2.90396C2.40844 3.58885 1.85831 4.40443 1.48285 5.30345C1.10739 6.20248 0.914062 7.16707 0.914062 8.14134C0.914062 9.11562 1.10739 10.0802 1.48285 10.9792C1.85831 11.8783 2.40844 12.6938 3.10136 13.3787C3.79428 14.0636 4.61621 14.6042 5.51955 14.9692C6.42289 15.3341 7.38967 15.5162 8.36388 15.5048C10.3019 15.4823 12.1529 14.6965 13.5154 13.318C14.8779 11.9396 15.6421 10.0795 15.6421 8.14134C15.6421 6.20315 14.8779 4.34311 13.5154 2.96464C12.1529 1.58617 10.3019 0.800429 8.36388 0.777844Z"
+                          stroke="white" stroke-miterlimit="10" />
+                        <path d="M13.8516 13.6328L18.9946 18.7758" stroke="white" stroke-miterlimit="10"
+                          stroke-linecap="round" />
+                      </svg>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="header-top-middle">
+              <a href="index.html">
+                <picture>
+                  <source media="(max-width:991px)" srcset="images/logo.png" />
+                  <source media="(max-width:767px)" srcset="images/logo.png" />
+                  <img src="images/logo.png" alt="Flowers" />
+                </picture>
+              </a>
+            </div>
+            <div class="header-top-right desktop">
+              <a href="#!" class="custom-button white">store locator</a>
+            </div>
+            <div class="header-top-right mobile">
+              <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="header-bottom">
+            <ul>
+              <li>
+                <a href="#!">Who we are
+                  <div class="nav-link-arrow">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_2429_20976" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                        width="12" height="12">
+                        <rect width="12" height="12" transform="matrix(-1 0 0 1 12 0)" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_2429_20976)">
+                        <path
+                          d="M7.40702 5.99964L3.64065 9.76602C3.54131 9.86535 3.4929 9.98231 3.4954 10.1169C3.49798 10.2516 3.54894 10.3686 3.64827 10.4679C3.74769 10.5672 3.86469 10.6169 3.99927 10.6169C4.13386 10.6169 4.25086 10.5672 4.35027 10.4679L8.18577 6.64002C8.27619 6.5496 8.34319 6.44831 8.38677 6.33614C8.43036 6.22397 8.45215 6.11181 8.45215 5.99964C8.45215 5.88747 8.43036 5.77531 8.38677 5.66314C8.34319 5.55097 8.27619 5.44968 8.18577 5.35927L4.35027 1.52364C4.25086 1.42431 4.13256 1.37593 3.9954 1.37852C3.85823 1.3811 3.73998 1.43206 3.64065 1.53139C3.54131 1.63072 3.49165 1.74772 3.49165 1.88239C3.49165 2.01697 3.54131 2.13393 3.64065 2.23327L7.40702 5.99964Z"
+                          fill="white" />
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#!">Brands
+                  <div class="nav-link-arrow">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_2429_20976" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                        width="12" height="12">
+                        <rect width="12" height="12" transform="matrix(-1 0 0 1 12 0)" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_2429_20976)">
+                        <path
+                          d="M7.40702 5.99964L3.64065 9.76602C3.54131 9.86535 3.4929 9.98231 3.4954 10.1169C3.49798 10.2516 3.54894 10.3686 3.64827 10.4679C3.74769 10.5672 3.86469 10.6169 3.99927 10.6169C4.13386 10.6169 4.25086 10.5672 4.35027 10.4679L8.18577 6.64002C8.27619 6.5496 8.34319 6.44831 8.38677 6.33614C8.43036 6.22397 8.45215 6.11181 8.45215 5.99964C8.45215 5.88747 8.43036 5.77531 8.38677 5.66314C8.34319 5.55097 8.27619 5.44968 8.18577 5.35927L4.35027 1.52364C4.25086 1.42431 4.13256 1.37593 3.9954 1.37852C3.85823 1.3811 3.73998 1.43206 3.64065 1.53139C3.54131 1.63072 3.49165 1.74772 3.49165 1.88239C3.49165 2.01697 3.54131 2.13393 3.64065 2.23327L7.40702 5.99964Z"
+                          fill="white" />
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#!">mattresses
+                  <div class="nav-link-arrow">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_2429_20976" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                        width="12" height="12">
+                        <rect width="12" height="12" transform="matrix(-1 0 0 1 12 0)" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_2429_20976)">
+                        <path
+                          d="M7.40702 5.99964L3.64065 9.76602C3.54131 9.86535 3.4929 9.98231 3.4954 10.1169C3.49798 10.2516 3.54894 10.3686 3.64827 10.4679C3.74769 10.5672 3.86469 10.6169 3.99927 10.6169C4.13386 10.6169 4.25086 10.5672 4.35027 10.4679L8.18577 6.64002C8.27619 6.5496 8.34319 6.44831 8.38677 6.33614C8.43036 6.22397 8.45215 6.11181 8.45215 5.99964C8.45215 5.88747 8.43036 5.77531 8.38677 5.66314C8.34319 5.55097 8.27619 5.44968 8.18577 5.35927L4.35027 1.52364C4.25086 1.42431 4.13256 1.37593 3.9954 1.37852C3.85823 1.3811 3.73998 1.43206 3.64065 1.53139C3.54131 1.63072 3.49165 1.74772 3.49165 1.88239C3.49165 2.01697 3.54131 2.13393 3.64065 2.23327L7.40702 5.99964Z"
+                          fill="white" />
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#!">beds & bases
+                  <div class="nav-link-arrow">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_2429_20976" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                        width="12" height="12">
+                        <rect width="12" height="12" transform="matrix(-1 0 0 1 12 0)" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_2429_20976)">
+                        <path
+                          d="M7.40702 5.99964L3.64065 9.76602C3.54131 9.86535 3.4929 9.98231 3.4954 10.1169C3.49798 10.2516 3.54894 10.3686 3.64827 10.4679C3.74769 10.5672 3.86469 10.6169 3.99927 10.6169C4.13386 10.6169 4.25086 10.5672 4.35027 10.4679L8.18577 6.64002C8.27619 6.5496 8.34319 6.44831 8.38677 6.33614C8.43036 6.22397 8.45215 6.11181 8.45215 5.99964C8.45215 5.88747 8.43036 5.77531 8.38677 5.66314C8.34319 5.55097 8.27619 5.44968 8.18577 5.35927L4.35027 1.52364C4.25086 1.42431 4.13256 1.37593 3.9954 1.37852C3.85823 1.3811 3.73998 1.43206 3.64065 1.53139C3.54131 1.63072 3.49165 1.74772 3.49165 1.88239C3.49165 2.01697 3.54131 2.13393 3.64065 2.23327L7.40702 5.99964Z"
+                          fill="white" />
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#!">Commercial
+                  <div class="nav-link-arrow">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_2429_20976" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                        width="12" height="12">
+                        <rect width="12" height="12" transform="matrix(-1 0 0 1 12 0)" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_2429_20976)">
+                        <path
+                          d="M7.40702 5.99964L3.64065 9.76602C3.54131 9.86535 3.4929 9.98231 3.4954 10.1169C3.49798 10.2516 3.54894 10.3686 3.64827 10.4679C3.74769 10.5672 3.86469 10.6169 3.99927 10.6169C4.13386 10.6169 4.25086 10.5672 4.35027 10.4679L8.18577 6.64002C8.27619 6.5496 8.34319 6.44831 8.38677 6.33614C8.43036 6.22397 8.45215 6.11181 8.45215 5.99964C8.45215 5.88747 8.43036 5.77531 8.38677 5.66314C8.34319 5.55097 8.27619 5.44968 8.18577 5.35927L4.35027 1.52364C4.25086 1.42431 4.13256 1.37593 3.9954 1.37852C3.85823 1.3811 3.73998 1.43206 3.64065 1.53139C3.54131 1.63072 3.49165 1.74772 3.49165 1.88239C3.49165 2.01697 3.54131 2.13393 3.64065 2.23327L7.40702 5.99964Z"
+                          fill="white" />
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#!">sleep lab
+                  <div class="nav-link-arrow">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_2429_20976" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                        width="12" height="12">
+                        <rect width="12" height="12" transform="matrix(-1 0 0 1 12 0)" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_2429_20976)">
+                        <path
+                          d="M7.40702 5.99964L3.64065 9.76602C3.54131 9.86535 3.4929 9.98231 3.4954 10.1169C3.49798 10.2516 3.54894 10.3686 3.64827 10.4679C3.74769 10.5672 3.86469 10.6169 3.99927 10.6169C4.13386 10.6169 4.25086 10.5672 4.35027 10.4679L8.18577 6.64002C8.27619 6.5496 8.34319 6.44831 8.38677 6.33614C8.43036 6.22397 8.45215 6.11181 8.45215 5.99964C8.45215 5.88747 8.43036 5.77531 8.38677 5.66314C8.34319 5.55097 8.27619 5.44968 8.18577 5.35927L4.35027 1.52364C4.25086 1.42431 4.13256 1.37593 3.9954 1.37852C3.85823 1.3811 3.73998 1.43206 3.64065 1.53139C3.54131 1.63072 3.49165 1.74772 3.49165 1.88239C3.49165 2.01697 3.54131 2.13393 3.64065 2.23327L7.40702 5.99964Z"
+                          fill="white" />
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#!">Testimonial
+                </a>
+              </li>
+              <li>
+                <a href="#!">customer care
+                  <div class="nav-link-arrow">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_2429_20976" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                        width="12" height="12">
+                        <rect width="12" height="12" transform="matrix(-1 0 0 1 12 0)" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_2429_20976)">
+                        <path
+                          d="M7.40702 5.99964L3.64065 9.76602C3.54131 9.86535 3.4929 9.98231 3.4954 10.1169C3.49798 10.2516 3.54894 10.3686 3.64827 10.4679C3.74769 10.5672 3.86469 10.6169 3.99927 10.6169C4.13386 10.6169 4.25086 10.5672 4.35027 10.4679L8.18577 6.64002C8.27619 6.5496 8.34319 6.44831 8.38677 6.33614C8.43036 6.22397 8.45215 6.11181 8.45215 5.99964C8.45215 5.88747 8.43036 5.77531 8.38677 5.66314C8.34319 5.55097 8.27619 5.44968 8.18577 5.35927L4.35027 1.52364C4.25086 1.42431 4.13256 1.37593 3.9954 1.37852C3.85823 1.3811 3.73998 1.43206 3.64065 1.53139C3.54131 1.63072 3.49165 1.74772 3.49165 1.88239C3.49165 2.01697 3.54131 2.13393 3.64065 2.23327L7.40702 5.99964Z"
+                          fill="white" />
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#!">Mattress matchmaker
+                </a>
+              </li>
+            </ul>
+            <div class="header-top-right mobile">
+              <a href="#!" class="custom-button white">store locator</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <!-- Banner Starts-->
+      <section class="hp-banner header-margin">
+        <div class="hp-banner-wrap">
+          <div class="hp-banner-content">
+            <div class="container-fluid">
+              <div class="hpbc-wrap text-animate">
+                <div class="hpbc-top">
+                  <h1 class="letter-animation">Mattress Resources Australia</h1>
+                  <div class="label gold mob">
+                    with mattress Resources feel
+                  </div>
+                </div>
+                <div class="hpbc-middle ">
+                  <p class="white slide-in-text">
+                    Welcome to Mattress Resources Australia, home to
+                    successful sleep solutions for over 50 years.
+                  </p>
+                  <p class="white slide-in-text">
+                    We manufacture our products to the highest standards here
+                    in Australia because we know life can be a lot sometimes,
+                    and you deserve the deeper, more revitalising sleep that
+                    comes from superior bedding.
+                  </p>
+                </div>
+                <div class="hpbc-bottom slide-in-text">
+                  <p class="white ">
+                    Start your journey to better sleep with us today!
+                  </p>
+                  <a href="#!" class="custom-button white ">store locator</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hp-banner-img">
+            <picture>
+              <source media="(max-width:991px)" srcset="images/Homepage/hp-img.png" />
+              <source media="(max-width:767px)" srcset="images/Homepage/hp-img.png" />
+              <img src="images/Homepage/hp-img.png" alt="Flowers" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- Banner Ends-->
+
+      <section class="spacer"></section>
+
+      <!-- Certifications section -->
+      <section class="certifications">
+        <div class="container">
+          <div class="certificate-heading heading">
+            <div class="label">Excellence Guaranteed</div>
+            <h2 class="slide-in-text">Our Australian Craftsmanship and Royal Seal</h2>
+          </div>
+          <div class="certificate-text text text-animate">
+            <p class="slide-in-text">
+              By choosing Mattress Resources Australia for your bedding needs,
+              you're not only investing in your best sleep but also supporting
+              Australian manufacturing. Our products adhere to rigorous
+              Australian quality standards, promote sustainability, and boost
+              the local economy.
+            </p>
+            <p class="slide-in-text">
+              We’re also proud suppliers of best-selling mattress brands from
+              around the world, like Hypnos, the exclusive bed maker for all
+              British Royal residences. They hold a Royal Warrant from Her
+              Majesty Queen Elizabeth II, acknowledging the quality and
+              excellence of their mattresses and beds supplied to all British
+              Royal residences. 
+            </p>
+          </div>
+          <div class="certificate-imgs">
+            <div class="certificate-img-grid text-animate">
+              <div class="cig-img fade-in-text">
+                <picture>
+                  <source media="(max-width:991px)" srcset="images/Homepage/certificate1.png" />
+                  <source media="(max-width:767px)" srcset="images/Homepage/certificate1.png" />
+                  <img src="images/Homepage/certificate1.png" alt="Flowers" />
+                </picture>
+              </div>
+              <div class="cig-img fade-in-text">
+                <picture>
+                  <source media="(max-width:991px)" srcset="images/Homepage/certificate2.png" />
+                  <source media="(max-width:767px)" srcset="images/Homepage/certificate2.png" />
+                  <img src="images/Homepage/certificate2.png" alt="Flowers" />
+                </picture>
+              </div>
+              <div class="cig-img fade-in-text">
+                <picture>
+                  <source media="(max-width:991px)" srcset="images/Homepage/certificate3.png" />
+                  <source media="(max-width:767px)" srcset="images/Homepage/certificate3.png" />
+                  <img src="images/Homepage/certificate3.png" alt="Flowers" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Certifications section -->
+
+      <section class="spacer"></section>
+
+      <!-- Experience section -->
+      <section class="experience pSection">
+        <div class="exp-wrapper">
+          <div class="container">
+            <div class="exp-content">
+              <div class="exp-content-wrap text-animate">
+                <div class="exp-heading heading">
+                  <h2 class="slide-in-text">Over 50 Years of Mattress Mastery</h2>
+                </div>
+                <div class="exp-text text">
+                  <p class="slide-in-text">
+                    We're not shy in saying that we're leaders in the bedding
+                    industry thanks to half a century of unwavering commitment
+                    to innovation, quality, and customer satisfaction.
+                    <br />
+                    We supply to both independent retailers and major chains
+                    to help create a diverse and competitive marketplace,
+                    giving you access to more products and price points. We
+                    supply to both independent retailers and major chains to
+                    help create a diverse and competitive marketplace, giving
+                    you access to more products and price points.
+                  </p>
+                  <p class="slide-in-text">
+                    Need more convincing to jump into a Mattress Resources
+                    Australia bed?
+                  </p>
+                  <p class="slide-in-text">
+                    We won the Bedbuyer Award in 2021 and 2022 from Bedbuyer,
+                    an independent Australian mattress review website. Their
+                    team of health professionals awards mattresses based on
+                    comfort, support, build quality, and value for money.
+                  </p>
+                </div>
+                <div class="cta-btn slide-in-text">
+                  <a href="#!" class="custom-button blue big-width">read about us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="exp-img-wrap">
+            <div class="exp-image-big exp-img">
+              <picture>
+                <source media="(max-width:991px)" srcset="images/Homepage/exp-big.png" />
+                <source media="(max-width:767px)" srcset="images/Homepage/exp-big.png" />
+                <img src="images/Homepage/exp-big.png" alt="Flowers" class="pImage" />
+              </picture>
+            </div>
+            <div class="exp-image-small exp-img pContent">
+              <picture>
+                <source media="(max-width:991px)" srcset="images/Homepage/exp-small.png" />
+                <source media="(max-width:767px)" srcset="images/Homepage/exp-small.png" />
+                <img src="images/Homepage/exp-small.png" alt="Flowers" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Experience section -->
+
+      <section class="spacer"></section>
+
+      <!-- Partner section -->
+      <section class="partner">
+        <div class="container-fluid">
+          <div class="partner-wrap">
+            <div class="partner-heading heading">
+              <div class="label">Elite Comfort</div>
+              <h2 class="slide-in-text">Explore Our Prestigious Partner Brands</h2>
+            </div>
+            <div class="partner-text text text-animate">
+              <p class="slide-in-text">We only partner with the best in the business.</p>
+            </div>
+            <div class="partner-grid text-animate">
+              <div class="partner-item fade-in-text">
+                <a href="#!">
+                  <div class="partner-item-overlay"></div>
+                  <div class="partner-item-img">
+                    <picture>
+                      <source media="(max-width:991px)" srcset="images/Homepage/partner1.png" />
+                      <source media="(max-width:767px)" srcset="images/Homepage/partner1.png" />
+                      <img src="images/Homepage/partner1.png" alt="Flowers" />
+                    </picture>
+                  </div>
+                  <div class="partner-item-content">
+                    <h3>Therapedic</h3>
+                    <p class="white small">
+                      "The mattress sleeping the world" since 1957. They hold
+                      the coveted Mattress Design Award for engineering
+                      innovation, quality, and value.
+                    </p>
+                    <p class="custom-button gold">Explore Products</p>
+                  </div>
+                </a>
+              </div>
+              <div class="partner-item fade-in-text">
+                <a href="#!">
+                  <div class="partner-item-overlay"></div>
+                  <div class="partner-item-img">
+                    <picture>
+                      <source media="(max-width:991px)" srcset="images/Homepage/partner2.png" />
+                      <source media="(max-width:767px)" srcset="images/Homepage/partner2.png" />
+                      <img src="images/Homepage/partner2.png" alt="Flowers" />
+                    </picture>
+                  </div>
+                  <div class="partner-item-content">
+                    <h3>Hypnos</h3>
+                    <p class="white small">
+                      Hypnos has been crafting "the most comfortable beds in
+                      the world" for 120 years. Their customers include the
+                      British royal family!
+                    </p>
+                    <p class="custom-button gold">Explore Products</p>
+                  </div>
+                </a>
+              </div>
+              <div class="partner-item fade-in-text">
+                <a href="#!">
+                  <div class="partner-item-overlay"></div>
+                  <div class="partner-item-img">
+                    <picture>
+                      <source media="(max-width:991px)" srcset="images/Homepage/partner3.png" />
+                      <source media="(max-width:767px)" srcset="images/Homepage/partner3.png" />
+                      <img src="images/Homepage/partner3.png" alt="Flowers" />
+                    </picture>
+                  </div>
+                  <div class="partner-item-content">
+                    <h3>Tommy Bahamas</h3>
+                    <p class="white small">
+                      Life is "one long weekend" with these mattresses,
+                      designed to captivate a feeling of relaxation and island
+                      living.
+                    </p>
+                    <p class="custom-button gold">Explore Products</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Partner section -->
+
+      <section class="spacer"></section>
+
+      <!-- Type section -->
+      <section class="partner type">
+        <div class="container-fluid">
+          <div class="partner-wrap">
+            <div class="partner-heading heading">
+              <div class="label blue">Select Your Sanctuary</div>
+              <h2 class="white slide-in-text">Premium Mattresses and Bedding Essentials</h2>
+            </div>
+            <div class="partner-text text text-animate">
+              <p class="white slide-in-text">
+                Immerse yourself in our Featured Products collection, where
+                sophistication meets comfort. Explore an array of meticulously
+                crafted mattresses.
+              </p>
+            </div>
+            <div class="partner-grid text-animate">
+              <div class="partner-item fade-in-text">
+                <div class="partner-item-overlay"></div>
+                <div class="partner-item-img ">
+                  <picture>
+                    <source media="(max-width:991px)" srcset="images/Homepage/type1.png" />
+                    <source media="(max-width:767px)" srcset="images/Homepage/type1.png" />
+                    <img src="images/Homepage/type1.png" alt="Flowers" />
+                  </picture>
+                </div>
+                <div class="partner-item-content">
+                  <div class="text-box">
+                    <h4>Mattresses</h4>
+                    <p class="white small">
+                      Our mattress ranges incorporate various technologies and
+                      advanced materials to help you fall asleep, stay asleep,
+                      and wake up feeling refreshed in your mind and body.
+                    </p>
+                    <a class="custom-button gold mob">explore all</a>
+                  </div>
+                  <div class="hover-text-box desk">
+                    <div class="hover-text-box-wrap">
+                      <p class="white small">
+                        Our mattress ranges incorporate various technologies and
+                        advanced materials to help you fall asleep, stay asleep,
+                        and wake up feeling refreshed in your mind and body.
+                      </p>
+                      <div class="tiny-text">These include</div>
+                      <ul>
+                        <li>Copper-infused memory foam</li>
+                        <li>Gel-infused memory foam and latex </li>
+                        <li>Visco soy memory foam </li>
+                        <li>SensIce "cool-to-touch" Fabric </li>
+                        <li>
+                          Renew Fabric (made from recycled plastic bottles) 
+                        </li>
+                        <li>Antimicrobial and anti-viral fabric treatments </li>
+                        <li>Pillow-top foam boxes </li>
+                        <li>Zoned pocket coils </li>
+                        <li>Hourglass back support</li>
+                      </ul>
+                    </div>
+                    <a href="#!" class="custom-button gold full-width">Explore all</a>
+                  </div>
+                </div>
+              </div>
+              <div class="partner-item fade-in-text">
+                <div class="partner-item-overlay"></div>
+                <div class="partner-item-img">
+                  <picture>
+                    <source media="(max-width:991px)" srcset="images/Homepage/type2.png" />
+                    <source media="(max-width:767px)" srcset="images/Homepage/type2.png" />
+                    <img src="images/Homepage/type2.png" alt="Flowers" />
+                  </picture>
+                </div>
+                <div class="partner-item-content">
+                  <div class="text-box">
+                    <h4>Bases and Headboards</h4>
+                    <p class="white small">
+                      Transform your sleep zone into a sanctuary of style with
+                      a Mattress Resources Australia headboard and base.
+                      Choose from plush fabrics in various colours and
+                      textures and stunning headboard design features like
+                      deep buttons and hand pleating. Then, choose a standard
+                      or drawer base tailor-made to match your headboard
+                      perfectly.
+                    </p>
+                    <a class="custom-button gold mob">explore all</a>
+                  </div>
+                  <div class="hover-text-box">
+                    <div class="hover-text-box-wrap">
+                      <p class="white small">
+                        Transform your sleep zone into a sanctuary of style with
+                        a Mattress Resources Australia headboard and base.
+                        Choose from plush fabrics in various colours and
+                        textures and stunning headboard design features like
+                        deep buttons and hand pleating. Then, choose a standard
+                        or drawer base tailor-made to match your headboard
+                        perfectly.
+                      </p>
+                      <div class="tiny-text">These include</div>
+                      <ul>
+                        <li>Copper-infused memory foam</li>
+                        <li>Gel-infused memory foam and latex </li>
+                        <li>Visco soy memory foam </li>
+                        <li>SensIce "cool-to-touch" Fabric </li>
+                        <li>
+                          Renew Fabric (made from recycled plastic bottles) 
+                        </li>
+                        <li>Antimicrobial and anti-viral fabric treatments </li>
+                        <li>Pillow-top foam boxes </li>
+                        <li>Zoned pocket coils </li>
+                        <li>Hourglass back support</li>
+                      </ul>
+                    </div>
+                      <a href="#!" class="custom-button gold full-width">View All</a>
+                  </div>
+                </div>
+              </div>
+              <div class="partner-item fade-in-text">
+                <div class="partner-item-overlay"></div>
+                <div class="partner-item-img">
+                  <picture>
+                    <source media="(max-width:991px)" srcset="images/Homepage/type3.png" />
+                    <source media="(max-width:767px)" srcset="images/Homepage/type3.png" />
+                    <img src="images/Homepage/type3.png" alt="Flowers" />
+                  </picture>
+                </div>
+                <div class="partner-item-content">
+                  <div class="text-box">
+                    <h4>Adjustable Beds</h4>
+                    <p class="white small">
+                      Adjust these beds' head and foot positioning with a
+                      wired remote control for personalised comfort. They're
+                      ideal if you have health conditions that benefit from
+                      customised bed positioning, such as acid reflux, sleep
+                      apnea, poor circulation, and respiratory issues, or if
+                      you enjoy comfort and convenience while reading or
+                      watching TV in bed.
+                    </p>
+                    <a class="custom-button gold mob">explore all</a>
+                  </div>
+                  <div class="hover-text-box">
+                    <div class="hover-text-box-wrap">
+                      <p class="white small">
+                        Adjust these beds' head and foot positioning with a
+                        wired remote control for personalised comfort. They're
+                        ideal if you have health conditions that benefit from
+                        customised bed positioning, such as acid reflux, sleep
+                        apnea, poor circulation, and respiratory issues, or if
+                        you enjoy comfort and convenience while reading or
+                        watching TV in bed.
+                      </p>
+                      <div class="tiny-text">These include</div>
+                      <ul>
+                        <li>Copper-infused memory foam</li>
+                        <li>Gel-infused memory foam and latex </li>
+                        <li>Visco soy memory foam </li>
+                        <li>SensIce "cool-to-touch" Fabric </li>
+                        <li>
+                          Renew Fabric (made from recycled plastic bottles) 
+                        </li>
+                        <li>Antimicrobial and anti-viral fabric treatments </li>
+                        <li>Pillow-top foam boxes </li>
+                        <li>Zoned pocket coils </li>
+                        <li>Hourglass back support</li>
+                      </ul>
+                    </div>
+                      <a href="#!" class="custom-button gold full-width">View All</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Type section -->
+
+      <section class="spacer"></section>
+
+      <!-- collection section -->
+      <section class="experience collection pSection">
+        <div class="exp-wrapper">
+          <div class="container">
+            <div class="exp-content">
+              <div class="exp-content-wrap text-animate">
+                <div class="exp-heading heading">
+                  <h2 class="slide-in-text">Our Commercial Collections</h2>
+                </div>
+                <div class="exp-text text">
+                  <p class="slide-in-text">
+                    We supply our durable commercial mattresses, headboards
+                    and base sets to various clients in the hospitality
+                    industry, including hotels, motels, boutique guest houses,
+                    retirement homes, and universities.
+                  </p>
+
+                  <p class="slide-in-text">
+                    Our flexible options include bed heights that accommodate
+                    existing furnishings and bedding, glide and castor bed
+                    legs in various heights. We offer mattresses featuring
+                    fire-retardant fabrics, along with bases available in all
+                    sizes.
+                  </p>
+                </div>
+                <div class="cta-btn slide-in-text">
+                  <a href="#!" class="custom-button blue big-width ">explore Commercial products</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="exp-img-wrap">
+            <div class="exp-image-big exp-img">
+              <picture>
+                <source media="(max-width:991px)" srcset="images/Homepage/collection-big.png" />
+                <source media="(max-width:767px)" srcset="images/Homepage/collection-big.png" />
+                <img src="images/Homepage/collection-big.png" alt="Flowers" class="pImage" />
+              </picture>
+            </div>
+            <div class="exp-image-small exp-img pContent">
+              <picture>
+                <source media="(max-width:991px)" srcset="images/Homepage/collection-small.png" />
+                <source media="(max-width:767px)" srcset="images/Homepage/collection-small.png" />
+                <img src="images/Homepage/collection-small.png" alt="Flowers" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- collection section -->
+
+      <div class="spacer"></div>
+
+      <!-- Location section -->
+      <section class="location">
+        <div class="container-fluid">
+          <div class="loc-content">
+            <div class="loc-heading heading">
+              <div class="label">Find Your Nearest Sleep Haven</div>
+              <h2 class="slide-in-text">Our Nationwide Retailers</h2>
+            </div>
+            <div class="loc-text text-animate">
+              <div class="loc-text-wrap">
+                <p class="slide-in-text">
+                  While online shopping is convenient, you can't try before
+                  you buy, which is essential when searching for a new
+                  mattress. Don't gamble on a good night's sleep!
+                </p>
+                <p class="slide-in-text">
+                  <a href="https://mattressresources.com.au/retailers/" target="_blank">
+                    Visit a retailer near you
+                  </a>
+                  to experience Mattress Resources Australia’s high-quality
+                  products in person. 
+                </p>
+              </div>
+              <div class="loc-btn slide-in-text">
+                <a href="#!" class="custom-button blue">store locator</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map">
+          <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Bray%20Park%20australia+(MRA)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                href="https://www.gps.ie/">gps trackers</a></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- Location section -->
+
+      <div class="spacer"></div>
+
+      <!-- Innovations section -->
+      <section class="experience innovation pSection">
+        <div class="exp-wrapper">
+          <div class="container">
+            <div class="exp-content">
+              <div class="exp-content-wrap text-animate">
+                <div class="exp-heading heading">
+                  <div class="label">Innovative Sleep Solutions</div>
+                  <h2 class="tiny slide-in-text">The Science Behind Your Comfort</h2>
+                </div>
+                <div class="exp-text text ">
+                  <p class="slide-in-text">
+                    We manufacture the best beds in Australia because we
+                    embrace advanced mattress technologies developed through
+                    extensive scientific research, engineering, and testing.
+                    Such innovations in materials, design, and customisation
+                    cater to a broader range of sleep preferences and needs.
+                  </p>
+                  <p class="slide-in-text">What does that mean for you? </p>
+                  <p class="slide-in-text">
+                    More comfortable, supportive, and all-round better sleep.
+                  </p>
+                </div>
+                <div class="cta-btn slide-in-text">
+                  <a href="#!" class="custom-button blue big-width">Sleep Solutions</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="exp-image-big exp-img">
+            <picture>
+              <source media="(max-width:991px)" srcset="images/Homepage/innovation.png" />
+              <source media="(max-width:767px)" srcset="images/Homepage/innovation.png" />
+              <img src="images/Homepage/innovation.png" alt="Flowers" class="pImage" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- Innovations section -->
+
+      <div class="spacer"></div>
+
+      <!-- Testimonial section -->
+      <section class="testimonial">
+        <div class="container">
+          <div class="testimonial-wrap">
+            <div class="testimonial-head">
+              <div class="testimonial-heading heading">
+                <div class="label blue">Real Stories Restful Nights</div>
+                <h2 class="white">Hear From Our Satisfied Sleepers</h2>
+              </div>
+            </div>
+            <div class="testimonial-slider-wrapper">
+              <div class="splide" id="testimonial-slider" role="group" aria-label="Splide Basic HTML Example">
+                <div class="splide__arrows splide__arrows--ltr">
+                  <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide"
+                    aria-controls="testimonial-slider-track" disabled="">
+                    <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.64865 1.49219L7.64865 7.49219L1.64865 13.4922" stroke="white" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </button>
+                  <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide"
+                    aria-controls="testimonial-slider-track">
+                    <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.64865 1.49219L7.64865 7.49219L1.64865 13.4922" stroke="white" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div class="testimonial-slide">
+                        <div class="test-left">
+                          <div class="tl-content">
+                            <h3 class="big white">
+                              “At Mattress Resources, the unmatched comfort of
+                              our luxury sleep products has transformed my
+                              sleep quality. Their focus on master
+                              craftsmanship and material innovation truly
+                              revitalizes the mind and body.”
+                            </h3>
+                          </div>
+                          <div class="tl-author">
+                            <div class="test-right mob">
+                              <div class="test-image">
+                                <picture>
+                                  <source media="(max-width:991px)" srcset="images/Homepage/testimonial1.png" />
+                                  <source media="(max-width:767px)" srcset="images/Homepage/testimonial1.png" />
+                                  <img src="images/Homepage/testimonial1.png" alt="Flowers" />
+                                </picture>
+                              </div>
+                            </div>
+                            <p class="auth white">Mia kunis</p>
+                            <p class="desg white">
+                              balmoral collection hypnos
+                            </p>
+                          </div>
+                        </div>
+                        <div class="test-right desk">
+                          <div class="test-image">
+                            <picture>
+                              <source media="(max-width:991px)" srcset="images/Homepage/testimonial1.png" />
+                              <source media="(max-width:767px)" srcset="images/Homepage/testimonial1.png" />
+                              <img src="images/Homepage/testimonial1.png" alt="Flowers" />
+                            </picture>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="testimonial-slide">
+                        <div class="test-left">
+                          <div class="tl-content">
+                            <h3 class="big white">
+                              “At Mattress Resources, the unmatched comfort of
+                              our luxury sleep products has transformed my
+                              sleep quality. Their focus on master
+                              craftsmanship and material innovation truly
+                              revitalizes the mind and body.”
+                            </h3>
+                          </div>
+                          <div class="tl-author">
+                            <div class="test-right mob">
+                              <div class="test-image">
+                                <picture>
+                                  <source media="(max-width:991px)" srcset="images/Homepage/testimonial1.png" />
+                                  <source media="(max-width:767px)" srcset="images/Homepage/testimonial1.png" />
+                                  <img src="images/Homepage/testimonial1.png" alt="Flowers" />
+                                </picture>
+                              </div>
+                            </div>
+                            <p class="auth white">Mia kunis</p>
+                            <p class="desg white">
+                              balmoral collection hypnos
+                            </p>
+                          </div>
+                        </div>
+                        <div class="test-right desk">
+                          <div class="test-image">
+                            <picture>
+                              <source media="(max-width:991px)" srcset="images/Homepage/testimonial1.png" />
+                              <source media="(max-width:767px)" srcset="images/Homepage/testimonial1.png" />
+                              <img src="images/Homepage/testimonial1.png" alt="Flowers" />
+                            </picture>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="testimonial-slide">
+                        <div class="test-left">
+                          <div class="tl-content">
+                            <h3 class="big white">
+                              “At Mattress Resources, the unmatched comfort of
+                              our luxury sleep products has transformed my
+                              sleep quality. Their focus on master
+                              craftsmanship and material innovation truly
+                              revitalizes the mind and body.”
+                            </h3>
+                          </div>
+                          <div class="tl-author">
+                            <div class="test-right mob">
+                              <div class="test-image">
+                                <picture>
+                                  <source media="(max-width:991px)" srcset="images/Homepage/testimonial1.png" />
+                                  <source media="(max-width:767px)" srcset="images/Homepage/testimonial1.png" />
+                                  <img src="images/Homepage/testimonial1.png" alt="Flowers" />
+                                </picture>
+                              </div>
+                            </div>
+                            <p class="auth white">Mia kunis</p>
+                            <p class="desg white">
+                              balmoral collection hypnos
+                            </p>
+                          </div>
+                        </div>
+                        <div class="test-right desk">
+                          <div class="test-image">
+                            <picture>
+                              <source media="(max-width:991px)" srcset="images/Homepage/testimonial1.png" />
+                              <source media="(max-width:767px)" srcset="images/Homepage/testimonial1.png" />
+                              <img src="images/Homepage/testimonial1.png" alt="Flowers" />
+                            </picture>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial section -->
+
+      <div class="spacer"></div>
+
+      <!-- tips section -->
+      <section class="tips">
+        <div class="container">
+          <div class="tip-wrapper">
+            <div class="tip-head">
+              <div class="tip-heading heading">
+                <div class="label">Your Guide To Better Sleep</div>
+                <h2 class="slide-in-text">Tips, Tricks, and Mattress Care</h2>
+              </div>
+              <div class="tip-content text-animate">
+                <p class="slide-in-text">
+                  Ready to unlock the secrets of better nights and brighter
+                  mornings?
+                </p>
+                <p class="slide-in-text">
+                  Explore our expert tips and tricks for optimising your sleep
+                  routine, conquering common sleep problems, and caring for
+                  your mattress.
+                </p>
+              </div>
+            </div>
+            <div class="tip-grid">
+              <div class="tip-item">
+                <div class="tip-item-overlay"></div>
+                <div class="tip-item-overlay overlay2"></div>
+                <div class="tip-item-img">
+                  <picture>
+                    <source media="(max-width:991px)" srcset="images/Homepage/tip1.png" />
+                    <source media="(max-width:767px)" srcset="images/Homepage/tip1.png" />
+                    <img src="images/Homepage/tip1.png" alt="Flowers" />
+                  </picture>
+                </div>
+                <div class="tip-item-content">
+                  <div class="tip-item-content-wrap">
+                    <h4 class="big white">Sleep tips & advice</h4>
+                    <p class="white">
+                      Lorem ipsum dolor sit amet consectetur. Etiam etiam lorem
+                      placerat auctor eu quis dignissim.
+                    </p>
+                    <a href="#!" class="custom-button blue">Read Blogs</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tip-item open">
+                <div class="tip-item-overlay"></div>
+                <div class="tip-item-overlay overlay2"></div>
+                <div class="tip-item-img">
+                  <picture>
+                    <source media="(max-width:991px)" srcset="images/Homepage/tip2.png" />
+                    <source media="(max-width:767px)" srcset="images/Homepage/tip2.png" />
+                    <img src="images/Homepage/tip2.png" alt="Flowers" />
+                  </picture>
+                </div>
+                <div class="tip-item-content">
+                  <div class="tip-item-content-wrap">
+                    <h4 class="big white">Sleeping science unveiled</h4>
+                    <p class="white">
+                      Lorem ipsum dolor sit amet consectetur. Etiam etiam lorem
+                      placerat auctor eu quis dignissim.
+                    </p>
+                    <a href="#!" class="custom-button blue">Read Blogs</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tip-item">
+                <div class="tip-item-overlay"></div>
+                <div class="tip-item-overlay overlay2"></div>
+                <div class="tip-item-img">
+                  <picture>
+                    <source media="(max-width:991px)" srcset="images/Homepage/tip1.png" />
+                    <source media="(max-width:767px)" srcset="images/Homepage/tip1.png" />
+                    <img src="images/Homepage/tip3.png" alt="Flowers" />
+                  </picture>
+                </div>
+                <div class="tip-item-content">
+                  <div class="tip-item-content-wrap">
+                    <h4 class="big white">Mattress care Guide</h4>
+                    <p class="white">
+                      Lorem ipsum dolor sit amet consectetur. Etiam etiam lorem
+                      placerat auctor eu quis dignissim.
+                    </p>
+                    <a href="#!" class="custom-button blue">Read Blogs</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- tips section -->
+
+      <div class="spacer"></div>
+
+      <!-- Find Section -->
+      <section class="experience find">
+        <div class="exp-wrapper">
+          <div class="container">
+            <div class="exp-content">
+              <div class="exp-content-wrap">
+                <div class="exp-heading heading">
+                  <div class="label">Personalised Comfort</div>
+                  <h2 class="slide-in-text">Find Your Perfect Mattress Match</h2>
+                </div>
+                <div class="exp-text text text-animate">
+                  <p class="slide-in-text">Feeling overwhelmed by endless mattress choices?</p>
+                  <p class="slide-in-text">
+                    We've created the Mattress Matchmaker to guide you to the
+                    perfect night's sleep
+                  </p>
+                  <p class="slide-in-text">
+                    Answer questions about your sleep preferences, body type,
+                    and aches or pains and our smart technology will analyse
+                    your information and recommend mattresses best suited to
+                    you. It’s that simple!
+                  </p>
+                </div>
+                <div class="cta-btn slide-in-text">
+                  <a href="#!" class="custom-button gold big-width">Mattress matchmaker</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="find-bottom-wrap">
+            <div class="find-feature text-animate">
+              <div class="find-feature-item fade-in-text">
+                <div class="ffi-img">
+                  <svg width="97" height="96" viewBox="0 0 97 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1.07335 23.217L47.7521 0.260768C48.2572 0.0123628 49.018 0.092472 49.5129 0.335823L95.8864 23.142C96.4894 23.4385 96.5225 23.7624 96.5247 24.3258L96.539 26.3971C96.5461 27.5007 96.2838 27.8582 95.3032 28.3394L84.3339 33.7223L95.8864 39.4038C96.4823 39.6968 96.5229 39.9877 96.5267 40.5357L96.539 42.3123C96.5461 43.4159 96.2838 43.7734 95.3032 44.2547L84.6591 49.478L95.8864 54.9995C96.5563 55.3289 96.5245 55.6698 96.5251 56.2712L96.539 70.3846C96.5461 71.4882 96.2838 71.8457 95.3032 72.3269L49.3603 94.8721C48.8549 95.1201 48.3365 95.1233 47.5995 94.7971L1.61713 72.1833C0.955117 71.8578 0.58558 71.5856 0.585946 70.8016L0.592541 55.8717C0.550026 55.5177 0.762377 55.2275 1.07335 55.0745L12.4917 49.4591L1.61713 44.1111C0.956089 43.786 0.583895 43.513 0.585946 42.7293L0.592262 40.2737C0.550922 39.9195 0.764967 39.6305 1.07335 39.4788L12.8166 33.7036L1.61713 28.1958C0.956089 27.8707 0.583895 27.5978 0.585946 26.8141L0.592598 24.2279C0.592598 23.7642 0.581508 23.4589 1.07335 23.217ZM49.0815 80.4319V93.2063C49.0837 93.6779 49.2025 93.8069 49.6414 93.6142L94.8574 71.4155C95.4751 71.1124 95.5285 71.077 95.5241 70.3886L95.5107 56.8174L49.5116 79.4395C49.0237 79.6795 49.0815 79.8297 49.0815 80.4319ZM48.0546 93.27V80.3937C48.0546 79.7508 48.1118 79.6908 47.5995 79.4388L1.60703 56.8201L1.60086 70.8016C1.60073 71.1102 1.77754 71.1316 2.0629 71.2719L47.3416 93.5396C47.8045 93.7673 48.0609 93.7354 48.0546 93.27ZM56.0618 79.1814C56.0618 78.8464 56.5712 78.8464 56.5712 79.1814V86.962C56.5712 87.297 56.0618 87.297 56.0618 86.962V79.1814ZM60.0427 77.2218C60.0427 76.8867 60.5522 76.8867 60.5522 77.2218V85.0023C60.5522 85.3373 60.0427 85.3373 60.0427 85.0023V77.2218ZM64.0237 75.2621C64.0237 74.927 64.5331 74.927 64.5331 75.2621V83.0426C64.5331 83.3776 64.0237 83.3776 64.0237 83.0426V75.2621ZM68.0046 73.3024C68.0046 72.9673 68.5141 72.9673 68.5141 73.3024V81.0829C68.5141 81.418 68.0046 81.418 68.0046 81.0829V73.3024ZM71.9855 71.3427C71.9855 71.0077 72.495 71.0077 72.495 71.3427V79.1232C72.495 79.4583 71.9855 79.4583 71.9855 79.1232V71.3427ZM75.9665 69.383C75.9665 69.048 76.4759 69.048 76.4759 69.383V77.1635C76.4759 77.4986 75.9665 77.4986 75.9665 77.1635V69.383ZM79.9474 67.4233C79.9474 67.0883 80.4569 67.0883 80.4569 67.4233V75.2038C80.4569 75.5389 79.9474 75.5389 79.9474 75.2038V67.4233ZM83.9284 65.4637C83.9284 65.1286 84.4378 65.1286 84.4378 65.4637V73.2442C84.4378 73.5792 83.9284 73.5792 83.9284 73.2442V65.4637ZM87.9093 63.504C87.9093 63.1689 88.4187 63.1689 88.4187 63.504V71.2845C88.4187 71.6195 87.9093 71.6195 87.9093 71.2845V63.504ZM40.138 79.1814C40.138 78.8464 40.6474 78.8464 40.6474 79.1814V86.962C40.6474 87.297 40.138 87.297 40.138 86.962V79.1814ZM36.1571 77.2218C36.1571 76.8867 36.6665 76.8867 36.6665 77.2218V85.0023C36.6665 85.3373 36.1571 85.3373 36.1571 85.0023V77.2218ZM32.1761 75.2621C32.1761 74.927 32.6856 74.927 32.6856 75.2621V83.0426C32.6856 83.3776 32.1761 83.3776 32.1761 83.0426V75.2621ZM28.1952 73.3024C28.1952 72.9673 28.7046 72.9673 28.7046 73.3024V81.0829C28.7046 81.418 28.1952 81.418 28.1952 81.0829V73.3024ZM24.2143 71.3427C24.2143 71.0077 24.7237 71.0077 24.7237 71.3427V79.1232C24.7237 79.4583 24.2143 79.4583 24.2143 79.1232V71.3427ZM20.2333 69.383C20.2333 69.048 20.7428 69.048 20.7428 69.383V77.1635C20.7428 77.4986 20.2333 77.4986 20.2333 77.1635V69.383ZM16.2524 67.4233C16.2524 67.0883 16.7618 67.0883 16.7618 67.4233V75.2038C16.7618 75.5389 16.2524 75.5389 16.2524 75.2038V67.4233ZM12.2715 65.4637C12.2715 65.1286 12.7809 65.1286 12.7809 65.4637V73.2442C12.7809 73.5792 12.2715 73.5792 12.2715 73.2442V65.4637ZM8.29051 63.504C8.29051 63.1689 8.79996 63.1689 8.79996 63.504V71.2845C8.79996 71.6195 8.29051 71.6195 8.29051 71.2845V63.504ZM83.5083 50.0427L49.539 66.7122C48.7662 67.1003 48.0945 66.9683 47.5995 66.7248L13.6412 50.0244L1.86453 55.8161L48.0452 78.5274C48.4978 78.7552 48.7562 78.6902 49.0117 78.5547L95.2478 55.8161L83.5083 50.0427ZM95.5165 41.2189L49.3603 63.9182C48.6387 64.2558 48.349 64.2393 47.5995 63.8431L1.60473 41.2233L1.60086 42.7293C1.60008 43.038 1.77746 43.0593 2.0629 43.1996L48.0452 65.8134C48.2493 65.9138 48.7046 66.0441 49.0933 65.8008L94.8574 43.3433C95.4751 43.0401 95.5285 43.0047 95.5241 42.3163L95.5165 41.2189ZM83.1831 34.287L49.3603 50.8847C48.8549 51.1327 48.0945 51.053 47.5995 50.8096L13.9661 34.2689L1.86453 40.2204L48.0452 62.9317C48.4405 63.1213 48.6272 63.155 48.9145 63.0068L95.2478 40.2204L83.1831 34.287ZM95.5141 24.9583L49.3603 47.6564C48.8552 47.9048 48.0943 47.8247 47.5995 47.5813L1.60563 24.9619L1.60086 26.8141C1.60008 27.1228 1.77746 27.144 2.0629 27.2844L48.0452 49.8982C48.2493 49.9985 48.7041 50.0765 48.9145 49.9732L94.8574 27.428C95.4751 27.1249 95.5285 27.0895 95.5241 26.4011L95.5141 24.9583ZM48.1978 1.17219L1.86454 23.9586L48.0452 46.6699C48.2495 46.7703 48.7037 46.8487 48.9145 46.745L95.2478 23.9586L49.0671 1.24724C48.8629 1.14681 48.4087 1.06849 48.1978 1.17219Z"
+                      fill="#172A55" />
+                  </svg>
+                </div>
+                <div class="ffi-text">
+                  <p>Mattress Matchmaker Feature 1</p>
+                </div>
+              </div>
+              <div class="find-feature-item fade-in-text">
+                <div class="ffi-img">
+                  <svg width="108" height="82" viewBox="0 0 108 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M82.2912 70.1375C80.9336 70.1375 79.658 69.6084 78.6982 68.6486L77.3447 67.2965C76.7719 66.7236 76.0104 66.4078 75.201 66.4078C74.3916 66.4078 73.6301 66.7236 73.0586 67.2965L71.7051 68.65C70.7453 69.6098 69.4684 70.1389 68.1107 70.1389C66.7531 70.1389 65.4775 69.6098 64.5178 68.65L63.1643 67.2978C62.5914 66.725 61.8299 66.4092 61.0205 66.4092C60.2111 66.4092 59.4496 66.725 58.8781 67.2978L57.5219 68.6514C56.5635 69.6111 55.2865 70.1389 53.9289 70.1389C52.5713 70.1389 51.2957 69.6098 50.3359 68.65L48.9824 67.2978C48.4096 66.725 47.648 66.4092 46.8387 66.4092C46.0293 66.4092 45.2678 66.725 44.6963 67.2978L43.3414 68.6514C42.383 69.6111 41.1061 70.1389 39.7484 70.1389C38.3908 70.1389 37.1152 69.6098 36.1555 68.65L34.8019 67.2855C34.2318 66.7154 33.4703 66.3996 32.6609 66.3996C31.8516 66.3996 31.09 66.7154 30.5186 67.2883L29.165 68.6418C28.2053 69.6016 26.9283 70.1307 25.5707 70.1307C24.2131 70.1307 22.9375 69.6016 21.9777 68.6418L20.6242 67.2896C20.0514 66.7168 19.2898 66.401 18.4805 66.401C17.6711 66.401 16.9096 66.7168 16.3381 67.2896L14.9846 68.6432C14.0248 69.6029 12.7479 70.132 11.3902 70.132C10.0326 70.132 8.75703 69.6029 7.79726 68.6432L6.44375 67.291C5.8709 66.7182 5.10937 66.4023 4.3 66.4023C3.49062 66.4023 2.7291 66.7182 2.15762 67.291L0.707031 65.8418C1.6668 64.882 2.94238 64.3529 4.3 64.3529C5.65762 64.3529 6.9332 64.882 7.89434 65.8418L9.24785 67.1939C9.8207 67.7668 10.5822 68.0826 11.3916 68.0826C12.201 68.0826 12.9625 67.7668 13.5354 67.1939L14.8889 65.8418C15.8486 64.882 17.1242 64.3529 18.4818 64.3529C19.8395 64.3529 21.115 64.882 22.0762 65.8418L23.4297 67.1939C24.0025 67.7668 24.7641 68.0826 25.5734 68.0826C26.3828 68.0826 27.1443 67.7668 27.7172 67.1939L29.0707 65.8418C30.0305 64.882 31.3061 64.3529 32.6637 64.3529C34.0213 64.3529 35.2969 64.882 36.258 65.8418L37.6115 67.2063C38.1816 67.775 38.9418 68.0908 39.7512 68.0908C40.5605 68.0908 41.3221 67.775 41.8936 67.2035L43.2484 65.85C44.2068 64.8902 45.4838 64.3611 46.8414 64.3611C48.199 64.3611 49.4746 64.8902 50.4344 65.85L51.7879 67.2021C52.3607 67.775 53.1223 68.0908 53.9316 68.0908C54.741 68.0908 55.5025 67.775 56.074 67.2035L57.4754 65.8049C58.4297 64.8738 59.6875 64.3611 61.0232 64.3611C62.3809 64.3611 63.6564 64.8902 64.6176 65.85L65.9711 67.2021C66.5439 67.775 67.3055 68.0908 68.1148 68.0908C68.9242 68.0908 69.6857 67.775 70.2586 67.2021L71.6121 65.85C72.5719 64.8902 73.8475 64.3611 75.2051 64.3611C76.5627 64.3611 77.8383 64.8902 78.7994 65.85L80.1529 67.2021C80.7258 67.775 81.4873 68.0908 82.2967 68.0908C83.1061 68.0908 83.8676 67.775 84.4404 67.2021L85.7871 65.8432C86.7496 64.8807 88.0266 64.3516 89.3828 64.3516C90.7391 64.3516 92.016 64.8807 92.9758 65.8404L94.3293 67.1926C94.9022 67.7668 95.6637 68.0812 96.4731 68.0812C97.2824 68.0812 98.0439 67.7654 98.6154 67.1926L99.9703 65.8391C100.93 64.8793 102.206 64.3516 103.563 64.3516C104.921 64.3516 106.196 64.8807 107.156 65.8404L105.706 67.291C105.133 66.7182 104.373 66.4037 103.563 66.4037C102.754 66.4037 101.992 66.7195 101.42 67.291L100.065 68.6445C99.1063 69.6043 97.8293 70.1334 96.4717 70.1334C95.1141 70.1334 93.8385 69.6043 92.8787 68.6445L91.5252 67.2924C90.9523 66.7195 90.1908 66.4037 89.3814 66.4037C88.5721 66.4037 87.8106 66.7195 87.2391 67.291L85.8924 68.65C84.9244 69.6098 83.6488 70.1375 82.2912 70.1375Z"
+                      fill="#172A55" />
+                    <path
+                      d="M41.209 28.7383C42.0018 28.7383 42.6445 28.0956 42.6445 27.3027C42.6445 26.5099 42.0018 25.8672 41.209 25.8672C40.4162 25.8672 39.7734 26.5099 39.7734 27.3027C39.7734 28.0956 40.4162 28.7383 41.209 28.7383Z"
+                      fill="#172A55" />
+                    <path
+                      d="M67.459 28.7383C68.2518 28.7383 68.8945 28.0956 68.8945 27.3027C68.8945 26.5099 68.2518 25.8672 67.459 25.8672C66.6662 25.8672 66.0234 26.5099 66.0234 27.3027C66.0234 28.0956 66.6662 28.7383 67.459 28.7383Z"
+                      fill="#172A55" />
+                    <path
+                      d="M80.5801 42.3398C81.3729 42.3398 82.0156 41.6971 82.0156 40.9043C82.0156 40.1115 81.3729 39.4688 80.5801 39.4688C79.7872 39.4688 79.1445 40.1115 79.1445 40.9043C79.1445 41.6971 79.7872 42.3398 80.5801 42.3398Z"
+                      fill="#172A55" />
+                    <path
+                      d="M32.4668 16.0898C33.2596 16.0898 33.9023 15.4471 33.9023 14.6543C33.9023 13.8615 33.2596 13.2188 32.4668 13.2188C31.674 13.2188 31.0312 13.8615 31.0312 14.6543C31.0312 15.4471 31.674 16.0898 32.4668 16.0898Z"
+                      fill="#172A55" />
+                    <path
+                      d="M54.3418 16.0898C55.1346 16.0898 55.7773 15.4471 55.7773 14.6543C55.7773 13.8615 55.1346 13.2188 54.3418 13.2188C53.549 13.2188 52.9062 13.8615 52.9062 14.6543C52.9062 15.4471 53.549 16.0898 54.3418 16.0898Z"
+                      fill="#172A55" />
+                    <path
+                      d="M76.2168 16.0898C77.0096 16.0898 77.6523 15.4471 77.6523 14.6543C77.6523 13.8615 77.0096 13.2188 76.2168 13.2188C75.424 13.2188 74.7812 13.8615 74.7812 14.6543C74.7812 15.4471 75.424 16.0898 76.2168 16.0898Z"
+                      fill="#172A55" />
+                    <path
+                      d="M102.544 81.7148H5.31191C2.60488 81.7148 0.402344 79.5123 0.402344 76.8066V53.4141H107.453V76.8066C107.453 79.5123 105.251 81.7148 102.544 81.7148ZM2.45312 55.4648V76.8066C2.45312 78.383 3.73555 79.6641 5.31191 79.6641H102.545C104.121 79.6641 105.404 78.3816 105.404 76.8066V55.4648H2.45312Z"
+                      fill="#172A55" />
+                    <path
+                      d="M107.449 54.2713L107.163 53.4141L90.9139 4.66836C90.1646 2.42344 88.0715 0.914062 85.7049 0.914062H22.1416C19.775 0.914062 17.6818 2.42344 16.9326 4.66836L0.683594 53.4141L0.397852 54.2713L0 55.4648H107.846L107.449 54.2713ZM2.84649 53.4141L18.8781 5.31777C19.3471 3.90957 20.6582 2.96484 22.1416 2.96484H85.7049C87.1883 2.96484 88.4994 3.90957 88.9684 5.31777L105 53.4141H2.84649Z"
+                      fill="#172A55" />
+                    <path
+                      d="M54.3379 42.3398C55.1307 42.3398 55.7734 41.6971 55.7734 40.9043C55.7734 40.1115 55.1307 39.4688 54.3379 39.4688C53.5451 39.4688 52.9023 40.1115 52.9023 40.9043C52.9023 41.6971 53.5451 42.3398 54.3379 42.3398Z"
+                      fill="#172A55" />
+                    <path
+                      d="M28.0801 42.3398C28.8729 42.3398 29.5156 41.6971 29.5156 40.9043C29.5156 40.1115 28.8729 39.4688 28.0801 39.4688C27.2872 39.4688 26.6445 40.1115 26.6445 40.9043C26.6445 41.6971 27.2872 42.3398 28.0801 42.3398Z"
+                      fill="#172A55" />
+                  </svg>
+                </div>
+                <div class="ffi-text">
+                  <p>Mattress Matchmaker Feature 2</p>
+                </div>
+              </div>
+              <div class="find-feature-item fade-in-text">
+                <div class="ffi-img">
+                  <svg width="80" height="98" viewBox="0 0 80 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M73.5645 27.2487V7.05635C73.5645 5.3715 73.4133 4.10336 72.8889 3.30457C72.4115 2.57743 71.5428 2.2038 70.0614 2.2038H36.1407C36.2299 2.2244 36.317 2.25143 36.4022 2.28492C36.792 2.43811 37.117 2.7159 37.3703 3.12069C37.5549 3.41566 37.7 3.78012 37.8021 4.21483L37.8075 4.24405C37.9019 4.74128 37.9904 5.21043 38.0741 5.65411C38.6872 8.905 39.041 10.7801 39.5859 12.3535C39.6818 12.5513 39.7837 12.7504 39.8926 12.9534C41.1175 12.6629 42.3054 12.3406 43.4612 11.9846C44.6438 11.6203 45.8007 11.2195 46.9369 10.7802C47.1651 10.692 47.7425 10.5259 48.2453 10.4863C48.4336 10.4715 48.6204 10.4738 48.7957 10.5007C49.7086 9.68053 50.7565 9.12602 51.3553 8.82768C52.5496 8.23262 53.7254 7.59096 54.8891 6.90007C56.0655 6.20167 57.2277 5.45573 58.3824 4.6596L58.4089 4.64102C58.8311 4.37683 59.2331 4.19941 59.6105 4.11075C60.0668 4.00353 60.4893 4.02374 60.8717 4.17411C61.2615 4.3273 61.5865 4.60509 61.8398 5.00989C62.0244 5.30485 62.1695 5.6693 62.2716 6.10402L62.277 6.13324C62.3714 6.63056 62.4599 7.09976 62.5436 7.54349C63.1567 10.7943 63.5105 12.6693 64.0554 14.2427C64.7828 15.7441 65.8582 17.3209 67.725 20.0576C67.799 20.1661 67.567 19.8259 68.5332 21.2462L68.5492 21.2701C68.7849 21.6508 68.94 22.0111 69.0177 22.3491C69.1242 22.8125 69.0905 23.2374 68.9235 23.6205C68.7593 23.997 68.4739 24.3103 68.0736 24.5582C67.7429 24.7629 67.3332 24.9217 66.849 25.033L66.8198 25.0383C65.0123 25.3698 63.2689 25.768 61.5753 26.2385C60.0626 26.6589 58.5909 27.1368 57.1504 27.6764C60.1369 27.5241 62.9494 27.425 65.4821 27.361C68.7794 27.2776 71.5198 27.2533 73.5645 27.2487ZM28.8763 49.165C29.0615 49.022 29.3276 49.0562 29.4706 49.2414C29.6136 49.4266 29.5794 49.6927 29.3942 49.8358C27.9093 50.9838 26.4673 52.2256 25.0723 53.5776C23.6764 54.9305 22.3286 56.3925 21.0333 57.9799C20.8857 58.1614 20.6188 58.1889 20.4373 58.0413C20.2557 57.8937 20.2282 57.6268 20.3759 57.4453C21.6942 55.8296 23.0641 54.3435 24.4812 52.97C25.8993 51.5957 27.3657 50.3329 28.8763 49.165ZM78.5138 37.7731C78.5138 36.7865 78.3573 36.0769 78.0835 35.5785C77.8382 35.1319 77.4891 34.8508 77.0708 34.6839C76.7945 34.5736 76.5256 34.5017 76.2039 34.4674C75.8667 34.4315 75.4595 34.437 74.9177 34.4833C70.6243 34.8502 63.5923 37.3664 56.4287 40.4589C45.5926 45.1367 34.5227 51.103 32.0846 52.988C30.6075 54.1301 29.1727 55.3656 27.7846 56.7109C26.3951 58.0576 25.0539 59.5123 23.7656 61.0913C23.3245 61.6318 22.8951 62.1791 22.4778 62.7337C22.0595 63.2896 21.6423 63.867 21.2264 64.4669C19.4605 67.0139 17.8449 67.578 16.3304 66.9957C14.9391 66.4608 13.7628 64.9049 12.6679 63.0735L12.6042 62.9669C10.6938 59.7713 7.60508 54.6048 6.35482 53.7369C5.62109 53.2275 4.79784 52.9891 4.04514 53.0434C3.6791 53.0698 3.33258 53.1652 3.02604 53.3322C2.72165 53.498 2.45083 53.7365 2.23298 54.0503C1.92684 54.4913 1.72135 55.0828 1.66363 55.8347C1.66389 56.1426 1.6645 56.4563 1.66543 56.776L1.66547 56.7766C1.66768 56.8079 1.66768 56.8388 1.66571 56.8692C1.67184 58.8245 1.68993 61.0036 1.71018 63.4451C1.73614 66.5737 1.76569 70.1325 1.77837 74.2124C1.77837 74.5865 1.4751 74.8898 1.101 74.8898C0.726901 74.8898 0.423628 74.5865 0.423628 74.2124C0.410997 70.1495 0.381415 66.5873 0.355438 63.4557C0.335174 61.0127 0.317068 58.8312 0.310795 56.873L0.310727 56.8722C0.282047 56.4749 0.28237 56.1009 0.308568 55.7501C0.306664 52.9699 0.335021 50.6659 0.425311 48.7141C0.60159 44.9029 2.69434 41.7696 6.09344 39.1942V7.05635C6.09344 5.12154 6.29464 3.62336 6.99221 2.56079C7.73682 1.42658 8.95977 0.84375 10.9566 0.84375H70.0614C72.0583 0.84375 73.2812 1.42658 74.0258 2.56079C74.7234 3.62336 74.9246 5.12154 74.9246 7.05635V27.2628C76.8599 27.367 78.0835 28.0172 78.8512 29.1865C79.6449 30.3955 79.8738 32.1113 79.8738 34.3309V37.7731V46.1808V78.2155V90.0654C79.8738 92.285 79.6449 94.0007 78.8512 95.2097C78.0105 96.4904 76.623 97.1484 74.3525 97.1484H5.94864C3.67815 97.1484 2.29068 96.4904 1.44992 95.2097C0.656212 94.0007 0.4273 92.285 0.4273 90.0654V81.9493C0.4273 81.5737 0.731763 81.2692 1.10732 81.2692C1.48288 81.2692 1.78735 81.5737 1.78735 81.9493V90.0654C1.78735 92.035 1.96633 93.5207 2.58685 94.466C3.16035 95.3395 4.19359 95.7884 5.94864 95.7884H74.3525C76.1076 95.7884 77.1408 95.3395 77.7143 94.466C78.3348 93.5207 78.5138 92.035 78.5138 90.0654V78.2155V46.1808V37.7731ZM1.6783 52.639C1.89404 52.4434 2.12862 52.2779 2.37788 52.1422C2.86216 51.8784 3.39611 51.7286 3.9495 51.6886C5.00176 51.6127 6.1342 51.9333 7.12515 52.6212C8.61857 53.658 11.7999 58.9795 13.7676 62.2709L13.8314 62.3775C14.7925 63.9853 15.7818 65.3345 16.8139 65.7313C17.7228 66.0807 18.7887 65.6033 20.1108 63.6965C20.5274 63.0957 20.9553 62.5039 21.394 61.9208C21.8338 61.3365 22.2737 60.7751 22.7136 60.2359C24.0389 58.6117 25.4154 57.1183 26.8389 55.7387C28.2639 54.3577 29.7377 53.0886 31.2559 51.9148C33.7533 49.9839 44.9689 43.9259 55.8922 39.2104C63.1698 36.0687 70.3475 33.5096 74.8061 33.1285C75.4255 33.0756 75.913 33.0717 76.3474 33.118C76.7974 33.1659 77.1772 33.2679 77.5702 33.4248C77.9145 33.5621 78.2306 33.7448 78.5118 33.9826C78.4908 32.1855 78.2977 30.8189 77.7143 29.9303C77.1408 29.0567 76.1076 28.6078 74.3525 28.6078C72.1627 28.6078 69.0799 28.6255 65.514 28.7157C61.93 28.8063 57.7508 28.9699 53.2553 29.2611C52.856 29.5009 52.4945 29.6876 52.2243 29.8222C51.03 30.4172 49.8542 31.0589 48.6905 31.7498C47.5141 32.4482 46.3519 33.1941 45.1972 33.9903L45.1707 34.0089C44.7485 34.273 44.3465 34.4505 43.9691 34.5391C43.5128 34.6463 43.0903 34.6261 42.7078 34.4758C42.3181 34.3226 41.9931 34.0448 41.7397 33.64C41.5552 33.345 41.4101 32.9806 41.3079 32.5459L41.3026 32.5166C41.1609 31.7705 41.0129 31.0541 40.8618 30.3702C31.2801 31.4922 21.5934 33.3207 14.2335 36.2971C6.99204 39.2257 2.0356 43.2475 1.78005 48.7725C1.72653 49.9296 1.69483 51.2097 1.6783 52.639ZM40.6037 14.1792C41.2566 15.2379 42.1059 16.4831 43.2553 18.1681C43.332 18.2805 43.0912 17.9275 44.0637 19.357L44.0797 19.3809C44.3153 19.7617 44.4705 20.1219 44.5482 20.4599C44.6546 20.9233 44.621 21.3482 44.4539 21.7314C44.2898 22.1078 44.0044 22.4212 43.604 22.669C43.2734 22.8737 42.8637 23.0325 42.3795 23.1438L42.3503 23.1491C41.6933 23.2696 41.0448 23.3989 40.4041 23.5373C40.736 24.5391 41.1287 25.8289 41.5291 27.3568C41.9052 28.7922 42.2873 30.434 42.6305 32.2378L42.6308 32.2377C42.6982 32.5246 42.7861 32.7526 42.8926 32.9228C42.9855 33.0712 43.0892 33.167 43.2019 33.2113C43.3218 33.2585 43.4757 33.2598 43.6609 33.2163C43.8919 33.162 44.1571 33.0415 44.4534 32.856L44.4535 32.8562C45.6395 32.0393 46.8196 31.2817 47.9998 30.581C49.2016 29.8675 50.4057 29.2099 51.6187 28.6056C52.169 28.3314 53.1392 27.819 53.9332 27.0883C54.6641 26.4156 55.2547 25.5476 55.1863 24.5106C55.1629 24.1365 55.4471 23.8142 55.8212 23.7907C56.1953 23.7672 56.5176 24.0515 56.5411 24.4256C56.5961 25.2611 56.3843 26.002 56.0199 26.6508C56.0743 26.634 56.1199 26.6183 56.1539 26.6052C57.7996 25.9689 59.4815 25.413 61.2141 24.9316C62.9349 24.4534 64.7076 24.0482 66.5462 23.7102C66.888 23.6316 67.1609 23.5296 67.3616 23.4053C67.5216 23.3063 67.6286 23.197 67.6803 23.0786C67.729 22.967 67.7345 22.8246 67.6948 22.6519C67.6499 22.4564 67.5522 22.2347 67.3996 21.9873C67.0192 21.4282 67.1806 21.6679 66.604 20.8226C64.6885 18.0144 63.5905 16.4047 62.8183 14.8009L62.8032 14.7696L62.7891 14.7292C62.2012 13.0477 61.8401 11.1332 61.2101 7.79319C61.128 7.35815 61.0414 6.89862 60.949 6.41212L60.9488 6.41217C60.8814 6.12527 60.7935 5.89732 60.687 5.72711C60.5941 5.57865 60.4904 5.48285 60.3777 5.43855C60.2577 5.3914 60.1038 5.39009 59.9186 5.4336C59.6876 5.48787 59.4225 5.6084 59.1261 5.79386L59.126 5.79365C57.9401 6.61057 56.76 7.36815 55.5798 8.06886C54.378 8.78234 53.1739 9.43994 51.9609 10.0443C51.4106 10.3185 50.4404 10.8309 49.6464 11.5616C48.9155 12.2343 48.3249 13.1023 48.3932 14.1393C48.4167 14.5134 48.1325 14.8357 47.7584 14.8592C47.3843 14.8826 47.062 14.5984 47.0385 14.2243C46.9835 13.3888 47.1953 12.6479 47.5597 11.9991C47.5053 12.0158 47.4597 12.0315 47.4257 12.0447C46.2552 12.4972 45.0682 12.9086 43.8597 13.2809C42.7867 13.6114 41.7026 13.9103 40.6037 14.1792ZM39.0758 23.8399C38.4113 23.9993 37.7549 24.169 37.1058 24.3494C35.4149 24.8192 33.7753 25.361 32.1731 25.9805C31.945 26.0687 31.3676 26.2348 30.8648 26.2744C30.6765 26.2892 30.4897 26.2869 30.3144 26.26C29.4015 27.0802 28.3536 27.6347 27.7548 27.933C26.5605 28.528 25.3847 29.1697 24.221 29.8606C23.0446 30.559 21.8823 31.305 20.7277 32.1011L20.7011 32.1197C20.279 32.3839 19.877 32.5613 19.4996 32.65C19.0433 32.7572 18.6208 32.737 18.2383 32.5866C17.8486 32.4334 17.5236 32.1556 17.2702 31.7508C17.0856 31.4558 16.9406 31.0914 16.8384 30.6567L16.8331 30.6274C16.7387 30.1302 16.6502 29.6611 16.5665 29.2174C15.9534 25.9665 15.5996 24.0914 15.0546 22.518C14.3274 21.0166 13.2519 19.4399 11.3852 16.7034C11.3086 16.591 11.5493 16.944 10.5768 15.5145L10.5609 15.4906C10.3252 15.1099 10.17 14.7496 10.0924 14.4116C9.98592 13.9482 10.0196 13.5233 10.1866 13.1401C10.3508 12.7637 10.6362 12.4503 11.0365 12.2025C11.3672 11.9978 11.7769 11.839 12.2611 11.7277L12.2903 11.7224C14.0977 11.3909 15.8412 10.9927 17.5347 10.5221C19.2257 10.0523 20.8653 9.51052 22.4674 8.89104C22.6956 8.80284 23.273 8.63671 23.7758 8.59713C23.9641 8.58231 24.1509 8.58461 24.3262 8.61152C25.239 7.79134 26.287 7.23683 26.8858 6.93849C28.0801 6.34344 29.2559 5.70178 30.4196 5.0109C31.596 4.31248 32.7582 3.56656 33.9129 2.77041L33.9394 2.75183C34.3615 2.48764 34.7636 2.31022 35.141 2.22154C35.1681 2.21517 35.1951 2.20927 35.222 2.2038H10.9566C9.47521 2.2038 8.6065 2.57745 8.12914 3.30457C7.60474 4.10336 7.45348 5.3715 7.45348 7.05635V38.2377C9.27486 37.0459 11.3901 35.9839 13.7288 35.038C21.1785 32.0253 30.921 30.1742 40.5542 29.0387C40.4419 28.5727 40.329 28.125 40.2168 27.6968C39.809 26.1405 39.4089 24.836 39.0758 23.8399ZM39.36 22.3806C39.3664 22.3791 39.3727 22.3776 39.379 22.3763C40.2631 22.1741 41.1617 21.9892 42.0767 21.821C42.4185 21.7424 42.6914 21.6404 42.8921 21.5161C43.052 21.4172 43.1591 21.3079 43.2108 21.1895C43.2594 21.0778 43.265 20.9354 43.2253 20.7627C43.1804 20.5672 43.0827 20.3456 42.9301 20.0981C42.5437 19.5302 42.7138 19.7826 42.1344 18.9332C40.2189 16.1251 39.1209 14.5155 38.3488 12.9117L38.3337 12.8804L38.3196 12.84C37.7317 11.1585 37.3705 9.24394 36.7406 5.90382C36.6585 5.46882 36.5718 5.00935 36.4795 4.52293L36.4793 4.52298C36.4119 4.23608 36.324 4.00814 36.2175 3.83791C36.1246 3.68946 36.0209 3.59366 35.9082 3.54936C35.7882 3.5022 35.6343 3.50089 35.4492 3.54439C35.2182 3.59868 34.953 3.71921 34.6567 3.90467L34.6565 3.90447C33.4706 4.72138 32.2905 5.47896 31.1103 6.17969C29.9086 6.89315 28.7044 7.55073 27.4914 8.15508C26.941 8.4293 25.9709 8.94172 25.1769 9.6724C24.4459 10.3451 23.8554 11.2131 23.9237 12.2501C23.9472 12.6242 23.663 12.9465 23.2889 12.97C22.9148 12.9934 22.5925 12.7092 22.569 12.3351C22.514 11.4996 22.7258 10.7587 23.0902 10.1099C23.0358 10.1267 22.9902 10.1424 22.9562 10.1555C21.3105 10.7918 19.6286 11.3476 17.896 11.8291C16.1752 12.3073 14.4025 12.7124 12.5639 13.0505C12.222 13.1291 11.9492 13.2311 11.7484 13.3554C11.5885 13.4544 11.4814 13.5636 11.4298 13.682C11.3811 13.7937 11.3756 13.9361 11.4152 14.1088C11.4601 14.3043 11.5579 14.5259 11.7105 14.7734C12.0969 15.3413 11.9268 15.0889 12.5062 15.9383C14.4217 18.7464 15.5196 20.356 16.2918 21.9598L16.3069 21.9911L16.321 22.0315C16.9089 23.713 17.27 25.6276 17.9 28.9677C17.982 29.4027 18.0687 29.8622 18.1611 30.3486L18.1613 30.3485C18.2287 30.6354 18.3166 30.8634 18.4231 31.0336C18.516 31.182 18.6197 31.2778 18.7324 31.3221C18.8523 31.3693 19.0062 31.3706 19.1914 31.3271C19.4224 31.2728 19.6876 31.1523 19.9839 30.9668L19.984 30.967C21.17 30.1501 22.3501 29.3925 23.5303 28.6918C24.732 27.9784 25.9362 27.3207 27.1491 26.7164C27.6995 26.4422 28.6697 25.9298 29.4637 25.1991C30.1946 24.5264 30.7852 23.6584 30.7168 22.6214C30.6934 22.2473 30.9776 21.925 31.3517 21.9015C31.7258 21.8781 32.0481 22.1623 32.0716 22.5364C32.1266 23.3719 31.9148 24.1128 31.5504 24.7616C31.6048 24.7448 31.6504 24.7292 31.6844 24.716C33.3301 24.0797 35.012 23.5239 36.7446 23.0424C37.6029 22.8039 38.4742 22.5835 39.36 22.3806Z"
+                      fill="#172A55" />
+                  </svg>
+                </div>
+                <div class="ffi-text">
+                  <p>Mattress Matchmaker Feature 3</p>
+                </div>
+              </div>
+            </div>
+            <div class="exp-image-big exp-img">
+              <picture>
+                <source media="(max-width:991px)" srcset="images/Homepage/find.png" />
+                <source media="(max-width:767px)" srcset="images/Homepage/find.png" />
+                <img src="images/Homepage/find.png" alt="Flowers" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Find Section -->
+
+      <div class="spacer"></div>
+
+      <!-- Pre-Footer -->
+      <section class="pre-footer">
+        <div class="container-fluid">
+          <div class="pf-wrap">
+            <div class="pf-left">
+              <div class="pfl-head slide-in-text">Mattress <span>Resources</span></div>
+              <div class="pfl-img desk text-animate">
+                <picture>
+                  <source media="(max-width:991px)" srcset="images/Homepage/pfl1.png" />
+                  <source media="(max-width:767px)" srcset="images/Homepage/pfl1.png" />
+                  <img src="images/Homepage/pfl1.png" class="fade-in-text" alt="pfl1" />
+                </picture>
+                <picture>
+                  <source media="(max-width:991px)" srcset="images/Homepage/pfl2.png" />
+                  <source media="(max-width:767px)" srcset="images/Homepage/pfl2.png" />
+                  <img src="images/Homepage/pfl2.png" class="fade-in-text" alt="pfl2" />
+                </picture>
+              </div>
+            </div>
+            <div class="pf-right">
+              <div class="pfr-text text-animate slide-in-text">
+                <p>
+                  Our retailers are located in prominent cities all across
+                  Australia, serving diverse communities nationwide!
+                </p>
+                <a href="#!" class="custom-button gold">store locator</a>
+              </div>
+              <div class="pfl-img-wrap">
+                <div class="pfl-img mob text-animate">
+                  <picture>
+                    <source media="(max-width:991px)" srcset="images/Homepage/pfl1.png" />
+                    <source media="(max-width:767px)" srcset="images/Homepage/pfl1.png" />
+                    <img src="images/Homepage/pfl1.png" class="fade-in-text" alt="pfl1" />
+                  </picture>
+                  <picture>
+                    <source media="(max-width:991px)" srcset="images/Homepage/pfl2.png" />
+                    <source media="(max-width:767px)" srcset="images/Homepage/pfl2.png" />
+                    <img src="images/Homepage/pfl2.png" class="fade-in-text" alt="pfl2" />
+                  </picture>
+                </div>
+                <div class="pfr-img text-animate">
+                  <picture>
+                    <source media="(max-width:991px)" srcset="images/Homepage/pfr.png" />
+                    <source media="(max-width:767px)" srcset="images/Homepage/pfr.png" />
+                    <img src="images/Homepage/pfr.png" class="fade-in-text" alt="pfr" />
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Pre-Footer -->
+
+      <div class="spacer"></div>
+    </div>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="footer-wrap">
+          <div class="footer-top">
+            <div class="ft-left desk">
+              <picture>
+                <source media="(max-width:991px)" srcset="images/footer-logo.png" />
+                <source media="(max-width:767px)" srcset="images/footer-logo.png" />
+                <img src="images/footer-logo.png" alt="Flowers" />
+              </picture>
+            </div>
+            <div class="ft-right">
+              <p class="white">For any doubts</p>
+              <a href="#!" class="custom-button transparent">Contact Us</a>
+            </div>
+          </div>
+          <div class="footer-middle">
+            <div class="fm-left">
+              <div class="fml-top">
+                <div class="footer-link-wrap">
+                  <div class="footer-links">
+                    <p class="small">Who we are</p>
+                    <ul>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="#!">News and updates</a></li>
+                      <li><a href="#!">Partnership</a></li>
+                      <li><a href="#!">Technology</a></li>
+                      <li><a href="#!">Sustainability</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-links">
+                    <p class="small">Brands</p>
+                    <ul>
+                      <li><a href="#!">Therapedic</a></li>
+                      <li><a href="#!">Hypnos</a></li>
+                      <li><a href="#!">Tommy bahamas</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-links">
+                    <p class="small">Beds & bases</p>
+                    <ul>
+                      <li><a href="#!">Headboard</a></li>
+                      <li><a href="#!">Base</a></li>
+                      <li><a href="#!">Adjustable bed</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-links">
+                    <p class="small">Sleep lab</p>
+                    <ul>
+                      <li><a href="#!">Sleep tips & advices</a></li>
+                      <li><a href="#!">Blogs</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-links">
+                    <p class="small">Customer care</p>
+                    <ul>
+                      <li><a href="#!">Troubleshooting</a></li>
+                      <li><a href="#!">Mattress care guide</a></li>
+                      <li><a href="#!">FAQs</a></li>
+                      <li><a href="#!">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-links">
+                    <p class="small">Mattresses</p>
+                    <ul>
+                      <li><a href="#!">View all</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-links">
+                    <p class="small">By brands</p>
+                    <ul>
+                      <li><a href="#!">Therapedic</a></li>
+                      <li><a href="#!">Hypnos</a></li>
+                      <li><a href="#!">Tommy bahamas</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-links">
+                    <p class="small">By comfort</p>
+                    <ul>
+                      <li><a href="#!">Extra firm</a></li>
+                      <li><a href="#!">Firm</a></li>
+                      <li><a href="#!">Medium</a></li>
+                      <li><a href="#!">Soft</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-links">
+                    <p class="small">By type</p>
+                    <ul>
+                      <li><a href="#!">Spring</a></li>
+                      <li><a href="#!">Memory Foam</a></li>
+                      <li><a href="#!">Hybrid</a></li>
+                      <li><a href="#!">In a Box</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-links">
+                    <p class="small">By size</p>
+                    <ul>
+                      <li><a href="#!">Single</a></li>
+                      <li><a href="#!">King Single</a></li>
+                      <li><a href="#!">Double</a></li>
+                      <li><a href="#!">Queen</a></li>
+                      <li><a href="#!">King</a></li>
+                      <li><a href="#!">Super King</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="fml-bottom">
+                <div class="footer-extra-links-wrap">
+                  <div class="footer-extra-links">
+                    <a href="#!">Register product
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.41883 8.37023L14.615 8.34937" stroke="white" stroke-linecap="square"
+                          stroke-linejoin="round" />
+                        <path d="M8.96875 0.898438L16.0398 7.96951L8.96875 15.0406" stroke="white"
+                          stroke-linecap="square" stroke-linejoin="round" />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="footer-extra-links">
+                    <a href="#!">Register product
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.41883 8.37023L14.615 8.34937" stroke="white" stroke-linecap="square"
+                          stroke-linejoin="round" />
+                        <path d="M8.96875 0.898438L16.0398 7.96951L8.96875 15.0406" stroke="white"
+                          stroke-linecap="square" stroke-linejoin="round" />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="footer-extra-links">
+                    <a href="#!">Register product
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.41883 8.37023L14.615 8.34937" stroke="white" stroke-linecap="square"
+                          stroke-linejoin="round" />
+                        <path d="M8.96875 0.898438L16.0398 7.96951L8.96875 15.0406" stroke="white"
+                          stroke-linecap="square" stroke-linejoin="round" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fm-right">
+              <div class="ft-left mob">
+                <picture>
+                  <source media="(max-width:991px)" srcset="images/footer-logo.png" />
+                  <source media="(max-width:767px)" srcset="images/footer-logo.png" />
+                  <img src="images/footer-logo.png" alt="Flowers" />
+                </picture>
+              </div>
+              <div class="fmr-top">
+                <p class="white">
+                  Mattress Resources Australia is a proud Australian
+                  manufacturer that has been producing bedding for over 50
+                  years.
+                </p>
+                <div class="footer-bottom-middle mob">
+                  <p>Follow us at</p>
+                  <div class="footor-socials">
+                    <div class="social-icon">
+                      <a href="#!">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M18.1406 2.96094H15.1406C13.8145 2.96094 12.5428 3.48772 11.6051 4.4254C10.6674 5.36309 10.1406 6.63486 10.1406 7.96094V10.9609H7.14062V14.9609H10.1406V22.9609H14.1406V14.9609H17.1406L18.1406 10.9609H14.1406V7.96094C14.1406 7.69572 14.246 7.44137 14.4335 7.25383C14.6211 7.06629 14.8754 6.96094 15.1406 6.96094H18.1406V2.96094Z"
+                            stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="social-icon">
+                      <a href="#!">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M16.1406 0.960938H6.14062C3.3792 0.960938 1.14062 3.19951 1.14062 5.96094V15.9609C1.14062 18.7224 3.3792 20.9609 6.14062 20.9609H16.1406C18.902 20.9609 21.1406 18.7224 21.1406 15.9609V5.96094C21.1406 3.19951 18.902 0.960938 16.1406 0.960938Z"
+                            stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M15.1442 10.3273C15.2677 11.1596 15.1255 12.0095 14.738 12.7563C14.3505 13.5031 13.7374 14.1087 12.9859 14.487C12.2343 14.8653 11.3827 14.9969 10.552 14.8633C9.72136 14.7296 8.954 14.3374 8.35908 13.7425C7.76416 13.1476 7.37197 12.3802 7.23831 11.5495C7.10464 10.7189 7.2363 9.86723 7.61456 9.11571C7.99283 8.36419 8.59842 7.75107 9.34522 7.36357C10.092 6.97607 10.942 6.83392 11.7742 6.95733C12.6232 7.08322 13.4091 7.4788 14.0159 8.08564C14.6228 8.69248 15.0184 9.47841 15.1442 10.3273Z"
+                            stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M16.6406 5.46094H16.6506" stroke="#F7F7F7" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="social-icon">
+                      <a href="#!">
+                        <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M15.1406 6.96094C16.7319 6.96094 18.258 7.59308 19.3833 8.7183C20.5085 9.84352 21.1406 11.3696 21.1406 12.9609V19.9609H17.1406V12.9609C17.1406 12.4305 16.9299 11.9218 16.5548 11.5467C16.1798 11.1717 15.6711 10.9609 15.1406 10.9609C14.6102 10.9609 14.1015 11.1717 13.7264 11.5467C13.3513 11.9218 13.1406 12.4305 13.1406 12.9609V19.9609H9.14062V12.9609C9.14062 11.3696 9.77277 9.84352 10.898 8.7183C12.0232 7.59308 13.5493 6.96094 15.1406 6.96094Z"
+                            stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M5.14062 7.96094H1.14062V19.9609H5.14062V7.96094Z" stroke="#F7F7F7"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M3.14062 4.96094C4.24519 4.96094 5.14062 4.06551 5.14062 2.96094C5.14062 1.85637 4.24519 0.960938 3.14062 0.960938C2.03606 0.960938 1.14062 1.85637 1.14062 2.96094C1.14062 4.06551 2.03606 4.96094 3.14062 4.96094Z"
+                            stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fmr-bottom">
+                <div class="fmr-bottom-head">
+                  <p class="white">Subscribe to updates</p>
+                </div>
+                <div class="fmr-bottom-form">
+                  <input type="email" placeholder="your email address" />
+                  <button>
+                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.42188 7.94297L4.94219 4.42266L1.42188 0.902344" stroke="#2E2D2D"
+                        stroke-width="1.17344" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="fmr-bottom-text">
+                  <p class="white">
+                    *By entering your email address and clicking “Submit” you
+                    agree to receive updates from the Mattress Resources
+                    Australia about our work.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-bottom-left">
+              <p>
+                All rights reserved and product information protected by
+                Mattress Resources Australia
+              </p>
+            </div>
+            <div class="footer-bottom-middle desk">
+              <p>Follow us at</p>
+              <div class="footor-socials">
+                <div class="social-icon">
+                  <a href="#!">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M18.1406 2.96094H15.1406C13.8145 2.96094 12.5428 3.48772 11.6051 4.4254C10.6674 5.36309 10.1406 6.63486 10.1406 7.96094V10.9609H7.14062V14.9609H10.1406V22.9609H14.1406V14.9609H17.1406L18.1406 10.9609H14.1406V7.96094C14.1406 7.69572 14.246 7.44137 14.4335 7.25383C14.6211 7.06629 14.8754 6.96094 15.1406 6.96094H18.1406V2.96094Z"
+                        stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+                <div class="social-icon">
+                  <a href="#!">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M16.1406 0.960938H6.14062C3.3792 0.960938 1.14062 3.19951 1.14062 5.96094V15.9609C1.14062 18.7224 3.3792 20.9609 6.14062 20.9609H16.1406C18.902 20.9609 21.1406 18.7224 21.1406 15.9609V5.96094C21.1406 3.19951 18.902 0.960938 16.1406 0.960938Z"
+                        stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M15.1442 10.3273C15.2677 11.1596 15.1255 12.0095 14.738 12.7563C14.3505 13.5031 13.7374 14.1087 12.9859 14.487C12.2343 14.8653 11.3827 14.9969 10.552 14.8633C9.72136 14.7296 8.954 14.3374 8.35908 13.7425C7.76416 13.1476 7.37197 12.3802 7.23831 11.5495C7.10464 10.7189 7.2363 9.86723 7.61456 9.11571C7.99283 8.36419 8.59842 7.75107 9.34522 7.36357C10.092 6.97607 10.942 6.83392 11.7742 6.95733C12.6232 7.08322 13.4091 7.4788 14.0159 8.08564C14.6228 8.69248 15.0184 9.47841 15.1442 10.3273Z"
+                        stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M16.6406 5.46094H16.6506" stroke="#F7F7F7" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+                <div class="social-icon">
+                  <a href="#!">
+                    <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.1406 6.96094C16.7319 6.96094 18.258 7.59308 19.3833 8.7183C20.5085 9.84352 21.1406 11.3696 21.1406 12.9609V19.9609H17.1406V12.9609C17.1406 12.4305 16.9299 11.9218 16.5548 11.5467C16.1798 11.1717 15.6711 10.9609 15.1406 10.9609C14.6102 10.9609 14.1015 11.1717 13.7264 11.5467C13.3513 11.9218 13.1406 12.4305 13.1406 12.9609V19.9609H9.14062V12.9609C9.14062 11.3696 9.77277 9.84352 10.898 8.7183C12.0232 7.59308 13.5493 6.96094 15.1406 6.96094Z"
+                        stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M5.14062 7.96094H1.14062V19.9609H5.14062V7.96094Z" stroke="#F7F7F7"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M3.14062 4.96094C4.24519 4.96094 5.14062 4.06551 5.14062 2.96094C5.14062 1.85637 4.24519 0.960938 3.14062 0.960938C2.03606 0.960938 1.14062 1.85637 1.14062 2.96094C1.14062 4.06551 2.03606 4.96094 3.14062 4.96094Z"
+                        stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom-right">
+              <div class="terms-link">
+                <a href="#!">Privacy policy</a>
+                <a href="#!">Terms of service</a>
+                <a href="#!">Disclaimer</a>
+                <a href="#!">Cookies</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </wrapper>
+
+  <!-- JS Starts-->
+  <!-- <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/SplitText.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+  // Initialize Lenis
+
+  setTimeout(()=> {
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),  
+   });
+
+  // Use requestAnimationFrame to continuously update the scroll
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
+  },200);
+  
+});
+  </script> -->
+</body>
+<!-- Body Ends-->
+
+</html>
